@@ -1,0 +1,152 @@
+#tarifas{
+    margin: 10px 0 0 30.8%;
+    width: 480px;
+    min-height: 300px;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 10px 0;
+}
+
+.form_tarifas{
+    border: 3px solid red;
+    border: 3px solid gray;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    -webkit-box-shadow: 1px 4px 2px 0px rgba(48, 50, 50, 0.53);
+    -moz-box-shadow:    1px 4px 2px 0px rgba(48, 50, 50, 0.53);
+    box-shadow:         1px 4px 2px 0px rgba(48, 50, 50, 0.53);
+    width: 450px;
+    min-height: 300px;
+    margin-left: 10px;
+}
+
+.precio_tarifas{
+    background-color: #fea613;
+    width: 90px;
+    height: 15px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 2px auto;
+}
+
+.precio_tarifas span{
+    float: right !important;
+}
+
+.horas_tarifas{
+    width: 98px;
+    height: 22px;
+    margin: 2px auto;
+}
+
+.horas_tarifas span{
+    background-color: #fea613;
+    border-radius: 10px;
+    padding: 3px 5px;
+    width: 20px;
+    float: right;
+    text-align: right;
+}
+
+/***** HEADER TARIFAS ******/
+
+.header_tarifas{
+    width: 100%;
+    height: 260px;
+}
+
+.header_tarifas .image{
+    width: 243px;
+    height: 250px;
+    float: left;
+    padding-top: 10px;
+}
+
+.header_tarifas .imagen{
+    width: 33% !important;
+}
+
+.body_tarifas{
+    width: 100%;
+    min-height: 300px;
+}
+
+.partial_tarifas{
+    position: relative;
+    width: 243px;
+    min-height: 300px;
+    float: left;
+    border-left: 2px dotted black;
+}
+
+.partial_marcas{
+    width: 22.8% !important;
+    min-height: 0px !important;
+    padding: 0 50px;
+}
+
+.partial_marcas img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    box-shadow: 0 0 2px #000;
+    margin: 2px;
+}
+
+.partial_tarifas:first-child{
+    border-left: none;
+}
+
+.body_tarifas table td{
+    width: 243px;
+    height: 31px;
+    font-family: IPParking;
+}
+
+.body_tarifas table tbody tr:nth-child(even){
+    background-color: rgba(252, 178, 21, 0.3);
+}
+
+#tipo_tarifas{
+    text-align: center;
+}
+
+#tipo_tarifas a{
+    color: black !important;
+    text-decoration: none;
+}
+
+.icon-crud{
+    transition: background-color 1s;
+    padding: 8px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.icon-crud:hover{
+    background-color: #fea613 !important;
+
+}
+
+#registrar_marca{
+    position: absolute;
+    background-color: #000;
+    width: 15px;
+    height: 18px;
+    border-radius: 100%;
+    margin: 20px 10px;
+    padding: 10px 12px;
+    transition: background-color 2s;
+}
+
+#registrar_marca span{
+    color: #fea613;
+    transition: color 2s;
+}
+
+#registrar_marca:hover{
+    background-color: #fea613;
+}
+
+#registrar_marca:hover span{
+    color: #000;
+}

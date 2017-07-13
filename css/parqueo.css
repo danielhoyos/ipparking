@@ -1,0 +1,287 @@
+#parqueo{
+    margin: 10px 0 0 30.8%;
+    width: 600px;
+    min-height: 200px;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 10px;
+}
+
+.form_parqueo{
+    border: 3px solid red;
+    border: 3px solid gray;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    -webkit-box-shadow: 1px 4px 2px 0px rgba(48, 50, 50, 0.53);
+    -moz-box-shadow:    1px 4px 2px 0px rgba(48, 50, 50, 0.53);
+    box-shadow:         1px 4px 2px 0px rgba(48, 50, 50, 0.53);
+    width: 590px;
+    min-height: 200px;
+}
+
+/**********  PLACA  **********/
+.placa_vehiculo{
+    width: 160px;
+    height: 80px;
+    margin: 10px auto;
+    background-image: url(../assets/template/placa.png);
+    background-size: 100% 100%;
+}
+
+.input_placa{
+    width: 140px !important;
+    height: 60px !important;
+    font-size: 30px;
+    background-color: transparent;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow:    none !important;
+    box-shadow:         none !important;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.input_placa:disabled{
+    color: black;
+}
+/**********  FIN PLACA  **********/
+
+/************* ACCESORIOS **********/
+
+
+#accesorios_cascos, #accesorios_llaves{
+    position: relative;
+    font-family: IPParking;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#accesorios_llaves input[type=checkbox], #accesorios_cascos input[type=checkbox]{
+    width: 15px !important;
+    box-shadow: none;
+    margin: 0 !important;
+    padding: 0 !important;
+    vertical-align: middle;
+}
+
+#accesorios{
+    position: relative;
+    width: 150px;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+    padding-left: 10px;
+}
+
+#estacion_llave, #estacion_casco1, #estacion_casco2{
+    position: relative;
+    background-color: #fea613;
+    border-radius: 100%;
+    width: 35px;
+    height: 24px;
+    padding-top: 8px;
+    text-align: center;
+    float: left;
+}
+
+.image_casco, .image_llave{
+    position: relative;
+    width: 35px;
+    height: 30px;
+    background-size: 100% 100%;
+    float: left;
+}
+
+.image_llave{
+    background-image: url(../assets/template/llaves.png);
+}
+
+.image_casco{
+    background-image: url(../assets/template/casco.png);
+}
+
+/*************FIN  ACCESORIOS **********/
+
+/**********  CRONOMETRO  **********/
+.parqueo, .cronometro{
+    margin: 10px !important;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.cronometro{
+    width: 140px;
+    height: 70px;
+    background-image: url(../assets/template/placa_simple.png);
+    background-size: 100% 100%;
+    border-radius: 5px;
+    text-align: left;
+    padding: 10px 0 0 15px; 
+}
+
+#horas, #minutos, .divisor{
+    display: inline-block;
+    font-size: 40px;
+    font-family: LCD;
+}
+
+#horas, #minutos{
+    width: 40px;
+}
+
+#segundos{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    font-family: LCD;
+    font-size: 25px;
+    top: -42px;
+    left: 102px;
+}
+
+.img_cronometro{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    background-image: url(../assets/template/cronometro.png);
+    background-size: 100% 100%;
+    top: -35px;
+    left: 102px;
+}
+
+#h, #m{
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    top: -50px;
+    font-family: LCD;
+    font-size: 13px;
+    text-align: center;
+}
+
+#m{
+    margin-left: 8px;
+}
+
+/**********  FIN CRONOMETRO  **********/
+
+input:-webkit-autofill{
+    background-color: red;
+}
+
+.input_corto{
+    width: 160px !important;
+    margin-top: 0px !important;
+}
+
+.col_parqueo{
+    position: relative;
+    width: 590px !important;
+}
+
+.col_placa{
+    width: 285px;
+    margin: 5px;
+    overflow: hidden;
+    float: left;
+}
+
+.exit_parqueo{
+    position: absolute;
+    display: block;
+    left: 1000px; 
+}
+
+.registrar_parqueo{
+    position: absolute;
+    display: block;
+    top: 395px;
+    left: 925px;
+}
+
+#form_finalizar_parqueo{
+    position: relative;
+    width: 100%;
+    min-height: 280px;
+}
+
+/***** FINALIZAR PARQUEO ******/
+.finalizar_parqueo{
+    position: absolute;
+    display: block;
+    top: 395px;
+    left: 930px;
+}
+
+#datos_pago{
+    position: relative;
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#icon_valor{
+    width: 40px;
+    height: 80%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+}
+
+#icon_valor span{
+    font-size: 40px;
+}
+
+#valor_pago{
+    margin-top: 5px;
+    width: 120px;
+    height: 55%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #fea614;
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: right;
+    padding: 8px 10px;
+}
+
+#opc_pago{
+    position: relative;
+    width: 300px;
+    height:70px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#opc_pago table{
+    margin: -5px auto 5px auto;
+}
+
+#opc_pago table select, #opc_pago table input[type="number"]{
+    width: 120px !important;
+    background-color: white;
+    height: 28px;
+    margin: 0 auto 5px auto; 
+    border-radius: 10px;
+    padding: 5px 10px;
+    -webkit-box-shadow: 1px 4px 2px 0px rgba(48, 50, 50, 0.53);
+    -moz-box-shadow:    1px 4px 2px 0px rgba(48, 50, 50, 0.53);
+    box-shadow:         1px 4px 2px 0px rgba(48, 50, 50, 0.53);
+}
+
+#imprimir_label{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 190px;
+    padding: 5px 0 0 10px;
+    margin-bottom: 11px;
+}
+
+#imprimir{
+    position: absolute;
+    width: 15px !important;
+    height: 15px !important;
+    margin: 8px 0 0 200px;
+    z-index: 10;
+}

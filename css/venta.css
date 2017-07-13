@@ -1,0 +1,117 @@
+.col_facturas::-webkit-scrollbar, .col_contratos::-webkit-scrollbar{
+    width: 6px !important;
+}
+
+.col_facturas, .col_contratos{
+    border-bottom-left-radius: 10px;
+    border: 2px solid gray;
+    box-sizing: border-box;
+    height: 600px;
+    overflow: auto;
+    width: 100%;
+}
+
+#informacion_facturas{
+    background-color: #FEA613;
+    border: 2px solid gray;
+    border-top-right-radius: 10px;
+    box-sizing: border-box;
+    border-bottom: none !important;
+    width: 100%;
+}
+
+#titulo_parquadero, #titulo_paqueo, #titulo_cliente, #titulo_pdf{
+    display: inline-block;
+    font-family: IPParking;
+    font-size: 20px;
+    margin: 5px 0;
+    text-align: center;
+    vertical-align: top;
+}
+
+#titulo_parquadero, #titulo_paqueo, #titulo_cliente{
+    width: 30%;
+}
+
+#titulo_pdf{
+    width: 5%;
+}
+
+.info_factura{
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    box-sizing: border-box;
+    height: 12%;
+    width: 100%;
+}
+
+.info_factura:last-child{
+    border: none;
+}
+
+.info_factura:nth-child(even){
+    background-color: rgba(255,255,255,0.2);
+}
+
+.parqueadero_factura, .parqueo_factura, .cliente_factura, .min_factura{
+    display: inline-block;
+    font-family: Arial;
+    margin: 5px 0;
+    vertical-align: top;
+}
+
+.parqueadero_factura{
+    height: 60%;
+    margin-left: 5px;
+    width: 30%;
+}
+
+.parqueo_factura{
+    height: 60%;
+    width: 30%;
+}
+
+.cliente_factura{
+    height: 60%;
+    width: 30%;
+}
+
+.min_factura{
+    height: 75%;
+    width: 6%;
+    background: url(../assets/template/PDF.png);
+    background-size: 100% 100%;
+    border: 2px solid gray;
+    box-shadow: 2px 2px 1px 0px rgba(128,128,128,1);
+    transition: background 1s;
+}
+
+.min_factura:hover{
+    background: rgba(0,0,0,0.5) url(../assets/template/PDF.png) !important;
+    background-size: 100% 100% !important;
+}
+
+.ver_factura {
+    background-color: gray;
+    border-radius: 3px;
+    border: none;
+    color: #FFF;
+    display: none;
+    font-weight: bold;
+    margin: 20% auto;
+    outline: none;
+    padding: 5px;
+    transition: background-color 2s;
+    transition: color 1s;
+    width: 70%;
+}
+
+.ver_factura:hover{
+    background-color: #FEA613 !important;
+    color: #000;
+}
+
+.min_factura:hover .ver_factura{
+    display: block;
+}

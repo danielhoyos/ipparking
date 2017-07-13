@@ -1,0 +1,9 @@
+RewriteEngine on
+
+RewriteRule ^contacto/$ ?action=contacto
+RewriteRule ^nosotros/mision/$ ?action=mision
+RewriteRule ^nosotros/vision/$ ?action=mision
+RewriteRule ^nosotros/mision/$ ?action=mision
+RewriteRule ^nosotros/mision/$ ?action=mision
+RewriteRule ^nosotros/mision/$ ?action=mision
+RewriteRule ^nosotros/mision/$ ?action=mision

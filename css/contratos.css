@@ -1,0 +1,64 @@
+#info_contrato{
+    
+}
+
+#info_contrato table{
+    width: 100%;
+    background-color: rgba(252, 178, 21, 0.7);
+    border-radius: 2px;
+    margin-bottom: 5px;
+    padding: 5px;
+    
+}
+
+#tabla_contratos{
+    width: 100%;
+    min-height: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-sizing: border-box;
+    
+}
+
+.info_contrato{
+    text-align: center;
+    border: 3px solid gray !important;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    
+}
+
+.info_contrato thead{
+    background-color: #fea613;
+    
+    
+}
+
+.info_contrato tbody{
+    font-size: 16px;
+ 
+}
+
+.info_contrato tbody tr td{
+    padding: 10px 5px;
+    
+}
+
+.info_contrato tr:nth-child(even){
+    background-color: rgba(255,255,255,0.2);
+}
+
+.buttonExportar{
+    width: 160px !important;
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.facturas_cliente{
+    width: 100%;
+    border: 1px solid red;
+}

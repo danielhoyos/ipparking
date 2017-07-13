@@ -1,0 +1,86 @@
+/******************************* GLOBAL ******************************************/
+@font-face {
+    font-family: LCD;
+    src: url(../assets/fonts/lcd.ttf);
+}
+
+@font-face {
+    font-family: IPParking;
+    src: url(../assets/fonts/ipparking.ttf);
+}
+
+::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 3px;
+    background-color: grey;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 3px;
+    background-color: #fea613;
+    background-image: -webkit-linear-gradient(90deg,
+        transparent,
+        rgba(0, 0, 0, 0.3) 50%,
+        transparent,
+        transparent)
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url(../assets/template/background_body.jpg);
+    background-size: 100%;
+}
+
+.verscroll{
+    overflow: visible !important;
+}
+
+.edit_data{
+    -webkit-box-shadow: 1px 4px 2px 0px #333 !important;
+    -moz-box-shadow:    1px 4px 2px 0px #333 !important;
+    box-shadow:         1px 4px 2px 0px #333 !important;
+}
+
+.correct_data{
+    -webkit-box-shadow: 1px 3px 2px 0px green !important;
+    -moz-box-shadow:    1px 3px 2px 0px green !important;
+    box-shadow:         1px 3px 2px 0px green !important;
+}
+
+.error_data{
+    -webkit-box-shadow: 1px 3px 2px 0px #D80E0E !important;
+    -moz-box-shadow:    1px 3px 2px 0px #D80E0E !important;
+    box-shadow:         1px 3px 2px 0px #D80E0E !important;
+}
+
+.msg_respuesta{
+    color: red;
+    font-size: 12px;
+    font-family: arial !important;
+    margin-bottom: 5px;
+}
+
+/******************************** FIN GLOABAL **************************/
+
+/************** CONTENEDOR PRINCIPAL **********************/
+
+.contenedor_principal{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: 2px auto 2px auto !important;
+    width: 980px;
+    min-height: 500px;
+    border-radius: 2px;
+    padding: 10px;
+    overflow: hidden;
+}
+/************** FIN CONTENEDOR PRINCIPAL **********************/

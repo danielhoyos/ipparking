@@ -1,0 +1,293 @@
+.slide{
+    position: relative;
+    width: 800px;
+    height: 350px;
+    margin: 20px auto 0 auto;
+    border: 7px solid #fbb319;
+    -webkit-box-shadow: 2px 3px 2px 2px rgba(48, 50, 50, 0.53);
+    -moz-box-shadow:    2px 3px 2px 2px rgba(48, 50, 50, 0.53);
+    box-shadow:         2px 3px 2px 2px rgba(48, 50, 50, 0.53);
+}
+
+.owl-carousel .item{
+    width: 800px;
+    height: 350px;
+}
+
+.slide1{
+    background-image: url(../assets/slide/slide1.jpg);
+}
+.slide2{
+    background-image: url(../assets/slide/slide2.jpg);
+}
+.slide3{
+    background-image: url(../assets/slide/slide3.jpg);
+}
+.slide4{
+    background-image: url(../assets/slide/slide4.jpg);
+}
+
+.owl-prev,
+.owl-next{
+    position: absolute;
+    background-color: #fbb319;
+    top:145px;
+    color: transparent;
+    width: 30px; 
+    height: 60px; 
+}
+
+.owl-prev {
+    left: -6px;
+    // Semi-Circunferencia 
+    -moz-border-radius: 0 50px 50px 0;
+    -webkit-border-radius: 0 50px 50px 0;
+    border-radius: 0 50px 50px 0;
+    -webkit-box-shadow: 0px 0px 2px 2px rgba(48, 50, 50, 0.53);
+    -moz-box-shadow:    0px 0px 2px 2px rgba(48, 50, 50, 0.53);
+    box-shadow:         0px 0px 2px 2px rgba(48, 50, 50, 0.53);
+}
+.owl-next {
+    right: -6px;
+    // Semi-Circunferencia 
+    -moz-border-radius: 50px 0 0 50px;
+    -webkit-border-radius: 50px 0 0 50px;
+    border-radius: 50px 0 0 50px;
+    -webkit-box-shadow: 0px 0px 2px 2px rgba(48, 50, 50, 0.53);
+    -moz-box-shadow:    0px 0px 2px 2px rgba(48, 50, 50, 0.53);
+    box-shadow:         0px 0px 2px 2px rgba(48, 50, 50, 0.53);
+}
+
+.owl-prev::after,
+.owl-next::after{
+    font-weight: bold;
+    position: absolute;
+    margin: auto;
+    top: 16px;
+    font-size: 25px;
+    color: black;
+}
+
+.owl-prev::after{
+    left: 0px;
+    content: "◄ ";
+
+}
+.owl-next::after{
+    right: 0px;
+    content: "►";
+}
+
+.owl-prev:hover,
+.owl-next:hover{
+    background-color: black;
+}
+.owl-prev:hover::after,
+.owl-next:hover::after{
+    color: #fbb319;
+}
+
+/************** FIN SLIDE ****************/
+
+/*************** SECTION ************/
+
+#col1, #col2, #col3{
+    position: relative;
+    display: inline-table;
+    width: 320px;
+    min-height: 200px;
+    text-align: justify;
+}
+
+.section_principal{
+    min-height: 200px;
+    margin-top: 40px;
+}
+
+.section_principal p{
+    margin: 20px;
+}
+
+.section_principal .rs{
+    margin: 0 0 15px 30px;
+}
+
+#map{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 20px auto 0 auto;
+    -webkit-box-shadow: 1px 3px 2px 0px rgba(48, 50, 50, 0.53);
+    -moz-box-shadow:    1px 3px 2px 0px rgba(48, 50, 50, 0.53);
+    box-shadow:         1px 3px 2px 0px rgba(48, 50, 50, 0.53);
+}
+#map_descripcion{
+    margin: 10px 0 0 130px;
+    font: bold 15px/100% Arial, Helvetica, sans-serif;
+}
+
+.rs span{
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 100%;
+    background-color: #fbb319;
+}
+
+.rs a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.iconHome{
+    margin-left: 130px;
+}
+
+.titulo{
+    margin: 20px auto 10px auto;
+    background-image: url(../assets/template/titulos_home.png);
+    background-size: 100% 100%;
+    width: 300px;
+    height: 25px;
+    padding-top: 10px;
+    font: bold 15px/100% Arial, Helvetica, sans-serif;
+}
+
+.titulo_home{
+    text-align: center;
+}
+
+.article_principal{
+    max-height: 200px;
+    max-height: 300px;
+    margin: 20px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px; 
+}
+
+.article_principal:last-child{
+    border-bottom: none;
+    padding-bottom: 0 !important;
+}
+
+#movil_principal{
+    width: 150px;
+    height: 270px;
+    background-image: url(../assets/template/movil_yellow.png);
+    background-size: 100% 100%;
+    margin-left: 80px;
+}
+
+#button_appmovil{
+    font-family: IPParking;
+    width: 120px;
+    height: 45px;
+    margin: 12px 0 0 100px;
+    background: black;
+    color: #fbb314;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: none;
+    -webkit-box-shadow: 1px 3px 2px 0px rgba(48, 50, 50, 0.53);
+    -moz-box-shadow:    1px 3px 2px 0px rgba(48, 50, 50, 0.53);
+    box-shadow:         1px 3px 2px 0px rgba(48, 50, 50, 0.53);
+}
+
+#button_appmovil:hover{
+    font-size: 15px;
+}
+
+.contexto_section{
+    position: relative;
+    width: 400px;
+    min-height: 50px;
+    padding: 20px;
+    margin: 10px 0;
+    border: 3px solid gray;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: justify;
+    font: 16px/100% Arial, Helvetica, sans-serif;
+}
+
+.imagen_section{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 3px solid gray;
+    margin-left: 40px;
+    background-size: 100% 100%;
+}
+
+.logo_mision{
+    background-image: url(../assets/template/logo_mision.png);
+}
+
+.logo_vision{
+    background-image: url(../assets/template/logo_vision.png);
+}
+
+.logo_seguridad{
+    background-image: url(../assets/template/logo_seguridad.jpg);
+}
+
+.logo_servicios{
+    background-image: url(../assets/template/logo_servicios.jpg);
+}
+
+.logo_politicas{
+    background-image: url(../assets/template/logo_politicas.jpg);
+}
+
+.logo_responsabilidad{
+    background-image: url(../assets/template/logo_respondabilidad.jpg);
+}
+
+.mini_background{
+    position: relative;
+    margin: 33px auto 0 auto;
+    width: 500px;
+    height: 200px;
+    background-size: 100% 100%;
+}
+
+.mini_carro{
+    background-image: url(../assets/template/mini_carro.png);
+}
+
+.mini_moto{
+    background-image: url(../assets/template/mini_moto.png);
+}
+
+.mini_bicicleta{
+    background-image: url(../assets/template/mini_bicicleta.png);
+}
+
+/*************** FIN SECTION ************/
+
+/*************** MENÚ CLIENTE ************/
+
+.menu_cliente{
+    height: 500px !important;
+    width: 316.6px !important;
+}
+
+.cliente_perfil{
+    background-image: url(../assets/items/numero1.jpg);
+}
+
+.cliente_parqueo{
+    background-image: url(../assets/items/numero2.jpg);
+}
+
+.cliente_facturas{
+    background-image: url(../assets/items/numero3.jpg);
+}
+
+.titulo_item_cliente{
+    margin-top: 350px;
+    width: 100% !important;
+    box-shadow: 0px 2px 2px gray;
+}
+/*************** FIN MENÚ CLIENTE ************/

@@ -1,0 +1,75 @@
+#factura{
+    margin: 2px auto;
+    width: 80mm;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 2px solid gray;
+    padding: 15px 0;
+    font-size: 15px !important;
+}
+
+#exit-factura{
+    width: 15px;
+    height: 15px;
+    border-bottom: 2px solid gray;
+    border-left: 2px solid gray;
+    padding: 5px;
+    position: absolute;
+    margin: -15px 0 0 276px;
+    color: gray;
+    transition: background-color 2s;
+    transition: color 2s;
+}
+
+#header_factura, #body_factura, #footer_factura{
+    position: relative;
+    width: 80mm;
+    margin: 5px auto;
+    font-family: Arial;
+}
+
+#header_factura{
+    min-height: 20mm;
+}
+
+.nom_parqueadero, .logo_factura{
+    float: left;
+}
+
+.nom_parqueadero{
+    width: 185px;
+    margin-left: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.datos_column, .datos_factura, .datos_vehiculo, .datos_pago{
+    position: relative;
+    width: 90% !important;
+    margin: 0 auto;
+}
+
+.datos_column, .datos_pago, .datos_software{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.datos_factura, .datos_vehiculo{
+    border-bottom: 1px solid black;
+    text-align: left;
+    padding: 5px 0;
+}
+
+.datos_factura{
+    border-top: 1px solid black;
+}
+
+.datos_pago table{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.datos_vehiculo table{
+    font-size: 15px !important;
+    font-family: Arial;
+}

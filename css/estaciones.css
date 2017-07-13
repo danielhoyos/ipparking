@@ -1,0 +1,190 @@
+.estacion{
+    height: 120px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: gray;
+    color: black;
+    z-index: -1;
+    margin-right: -5px;
+    border-left: 2.5px solid #fea614;
+    border-right: 2.5px solid #fea614;
+    border-top: 0.5px dotted #fea614;
+    border-bottom: 0.5px dotted #fea614;
+}
+
+#estacion{
+    margin: 10px 0 0 30.8%;
+    width: 480px;
+    min-height: 300px;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 10px 0;
+}
+
+.form_estacion{
+    border: 3px solid gray;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    -webkit-box-shadow: 1px 4px 2px 0px rgba(48, 50, 50, 0.53);
+    -moz-box-shadow:    1px 4px 2px 0px rgba(48, 50, 50, 0.53);
+    box-shadow:         1px 4px 2px 0px rgba(48, 50, 50, 0.53);
+    width: 450px;
+    min-height: 300px;
+    margin-left: 10px;
+}
+
+#form_insert_estacion table{
+    margin-bottom: 20px;
+}
+
+.estacion_disponible{
+    background-color: gray;
+    -webkit-transition: background-color 3s;
+}
+
+.estacion_disponible:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.estacion_nodisponible{
+    background-color: rgba(215, 44, 44, 0.3);
+    -webkit-transition: background-color 3s;
+}
+
+.estacion_nodisponible:hover{
+    background-color: rgba(215, 44, 44, 1);
+}
+
+.estacion_big{
+    width: 108px;
+}
+
+.estacion_small{
+    width: 80px;
+}
+
+.estacion_min{
+    width: 63px;
+    height: 105px;
+}
+
+.estacion_accesorio{
+    width: 52px;
+    height: 70px;
+}
+
+.codigo_estacion, .codigo_accesorio{
+    position: relative;
+    border-radius: 100%;
+    text-align: center;
+    background-color: #fea614;
+}
+
+.codigo_accesorio{
+    width: 30px;
+    height: 30px;
+    margin: 3px auto;
+}
+
+.codigo_accesorio h5{
+    padding-top: 8px;
+}
+
+.codigo_estacion{
+    width: 40px;
+    height: 40px;
+    margin: 5px auto;
+}
+
+.codigo_estacion h4{
+    padding-top: 12px;
+}
+
+.automovil{
+    width: 110px;
+    height: 70px;
+    background-size: 100% 100%; 
+    background-image: url(../assets/template/automovil.png);
+}
+
+.motocicleta{
+    width: 80px;
+    height: 80px;
+    background-size: 100% 100%;
+    background-image: url(../assets/template/motocicleta.png);
+}
+
+.bicicleta{
+    width: 63px;
+    height: 63px;
+    background-size: 100% 100%;
+    background-image: url(../assets/template/bicicleta.png);
+}
+
+.llave{
+    width: 40px;
+    height: 40px;
+    background-size: 100% 100%;
+    background-image: url(../assets/template/llaves.png);
+    margin: 0 auto;
+}
+
+.casco{
+    width: 40px;
+    height: 40px;
+    background-size: 100% 100%;
+    background-image: url(../assets/template/casco.png);
+    margin: 0 auto;
+}
+
+#registrar_estaciones{
+    position: relative;
+    width: 200px;
+    min-height: 100px;
+    padding: 20px 20px 40px 20px;
+    margin: 10px 0;
+    border: 3px solid gray;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    -webkit-box-shadow: 1px 4px 2px 0px rgba(48, 50, 50, 0.53);
+    -moz-box-shadow:    1px 4px 2px 0px rgba(48, 50, 50, 0.53);
+    box-shadow:         1px 4px 2px 0px rgba(48, 50, 50, 0.53);
+}
+
+
+#registrar_estaciones input[type=text]{
+    -moz-box-shadow:    1px 4px 2px 0px rgba(48, 50, 50, 0.53);
+    -webkit-box-shadow: 1px 4px 2px 0px rgba(48, 50, 50, 0.53);
+    border-radius: 10px;
+    border: 0px solid black;
+    box-shadow:         1px 4px 2px 0px rgba(48, 50, 50, 0.53);
+    height: 30px;
+    outline: none;
+    padding: 1px 10px 1px 10px;
+    margin-top: 6px;
+}
+#registrar_estaciones h4{
+    text-align: center;
+}
+
+#registrar_estaciones select, input{
+    width: 200px !important;
+}
+
+#registrar_estacion{
+    cursor: pointer;
+    position: relative;
+    font-family: IPParking !important;
+    width: 120px;
+    height: 28px;
+    margin-left: 25px;
+    top: 20px;
+    background: black;
+    color: #fbb314;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    -webkit-box-shadow: 1px 3px 2px 0px rgba(48, 50, 50, 0.53);
+    -moz-box-shadow:    1px 3px 2px 0px rgba(48, 50, 50, 0.53);
+    box-shadow:         1px 3px 2px 0px rgba(48, 50, 50, 0.53);
+    font-size: 15px;
+}

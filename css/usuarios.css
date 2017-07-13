@@ -1,0 +1,519 @@
+/* INGRESAR USUARIO */
+
+.ingresarUser{
+    font-family: IPParking;
+    position: relative;
+    width: 380px;
+    height: 415px;
+    background-image: url(../assets/user/background_login.png);
+    background-repeat: no-repeat;
+    margin: 50px auto 0 auto;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.ingresarUser h2{
+    margin: 20px;
+}
+
+.ingresarUser .icono_login{
+    background: url(../assets/user/icon_login.png);
+    width: 110px;
+    height: 110px;
+    background-size: 100% 100%;
+    margin: 10px auto 20px auto;
+}
+
+.ingresarUser .input_login{
+    background-color: white;
+    width: 250px;
+    height: 32px;
+    margin: 0 auto 10px auto; 
+    border-radius: 10px;
+    padding-top: 5px;
+    -webkit-box-shadow: 1px 4px 2px 0px rgba(48, 50, 50, 0.53);
+    -moz-box-shadow:    1px 4px 2px 0px rgba(48, 50, 50, 0.53);
+    box-shadow:         1px 4px 2px 0px rgba(48, 50, 50, 0.53);
+}
+
+.ingresarUser .input_login span{
+    font-size: 20px;
+    color: #231f20;
+    margin: 0 5px;
+}
+
+.ingresarUser .input_login input{
+    width: 210px;
+    height: 25px;
+    border: none;
+    padding: 0 10px;
+    border-left: 1px solid lavender;
+    outline: none;
+    font-size: 15px;
+}
+
+.button_login{
+    float: right;
+    margin: 10px 65px 0 0;
+    width: 120px !important;
+}
+
+.button{
+    width: 100px;
+    height: 40px;
+    background: black;
+    color: #fbb314;
+    font-family: IPParking;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    -webkit-box-shadow: 1px 3px 2px 0px rgba(48, 50, 50, 0.53);
+    -moz-box-shadow:    1px 3px 2px 0px rgba(48, 50, 50, 0.53);
+    box-shadow:              1px 3px 2px 0px rgba(48, 50, 50, 0.53);
+    font-size: 16px;
+    -webkit-transition: background-color 2s;
+    -webkit-transition: color 2s;
+}
+
+.button:disabled{
+    background-color: #231f20 !important;
+    color: #666 !important;
+}
+
+.button:hover{
+    font-size: 17px;
+}
+
+.button_oculto{
+    display: none;
+}
+
+.ingresarUser .recuperar{
+    float: left;
+    margin-left: 60px;
+    color: black !important;
+    text-decoration: underline !important;
+    font-size: 11px !important;
+}
+
+.ingresarUser .recuperar:hover{
+    color: darkblue !important;
+}
+
+/* FIN INGRESAR USUARIO */
+
+/****  MENU ****/
+
+.item_menu, .menu_cliente{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 235px;
+    float: left;
+    margin: 0 10px 10px 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: black;
+}
+
+.item_menu{
+    height: 280px !important;
+}
+
+.item_menu:hover, .menu_cliente:hover{
+    box-shadow: 0 0 10px 0 black;
+}
+
+.item_perfil{
+    background-image: url(../assets/items/perfil.png);
+}
+
+.item_admin{
+    background-image: url(../assets/items/administradores.jpg);
+}
+
+.item_empleado{
+    background-image: url(../assets/items/empleados.jpg); 
+}
+
+.item_novedades{
+    background-image: url(../assets/items/novedades.jpg);
+}
+.item_marcas{
+    background-image: url(../assets/items/marcas.jpg);
+}
+
+.item_contabilidad{
+    background-image: url(../assets/items/contabilidad.jpg);
+}
+
+.item_estacion{
+    background-image: url(../assets/items/estacion.jpg);
+}
+
+.item_tarifas{
+    background-image: url(../assets/items/tarifas.jpg);
+}
+
+.item_camaras{
+    background-image: url(../assets/items/camaras.jpg);
+}
+
+.item_ventas{
+    background-image: url(../assets/items/facturas.jpg);
+}
+
+.item_contabilidad{
+    background-image: url(../assets/items/contabilidad.png);
+}
+
+.titulo_item, .titulo_item_cliente{
+    background-color: rgba(252, 178, 21, 0.8);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    width: 235px;
+    height: 50px;
+    font: bold 18px/100% Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    -webkit-transition: background-color 2s;
+}
+
+.titulo_item{
+    margin-top: 220px;
+}
+
+.item_menu:hover .titulo_item, .menu_cliente:hover .titulo_item_cliente{
+    background-color: #fea613;
+}
+
+.titulo_item span, .titulo_item_cliente span{
+    margin-bottom: 5px;
+}
+
+.titulo_item h3, .titulo_item_cliente h3{
+    margin-top: 10px;
+    font-family:  IPParking;
+}
+
+/* FIN MENU */
+
+/* PORTADA */
+#portada{
+    width: 980px;
+    height: 270px;
+    border-radius: 2px;
+    background-color: rgba(83, 83, 83, 0.7);
+    background-size: 100% 100%;
+    box-shadow: 0 0 30px 0 #999;
+    text-align: center;
+    color: #000;
+    font-family: IPParking;
+    cursor: pointer;
+    z-index: -1;
+}
+
+#contenido_avatar{
+    position: absolute;
+    width: 200px;
+    height: 259px;
+    top: 10px;
+    left: 400px;
+    text-align: center;
+    margin:  10px auto;
+}
+
+#avatar, .loadingAvatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 5px #888888;
+}
+
+.loadingAvatar{
+    background-image: url("../assets/template/loadingAvatar.gif") !important;
+    background-repeat: no-repeat !important;
+    opacity: 1;
+    background-size: 100% 100%;
+}
+
+#datos_perfil{
+    width: 100%;
+    height: 30px;
+    background-color: rgba(252, 178, 21, 0.7);
+    box-shadow: 0 0 5px 0 #999;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-family: IPParking;
+    padding: 10px 0;
+    -webkit-transition: background-color 3s;
+}
+
+#datos_perfil:hover{
+    background-color: #fea613;
+}
+
+.upload_img input[type="file"]{
+    height: 40px;
+    opacity: 0;
+}
+
+.upload_img{
+    position: absolute;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(252, 178, 21, 0.7);
+    background-image: url(../assets/user/icon_edit_black.png);
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    -webkit-transition: background-image 1.5s;
+    -webkit-transition: background-color 1s;
+}
+
+.upload_avatar{
+    top: 165px;
+    left: 545px;
+}
+
+.upload_portada{
+    top: 230px;
+    left: 935px;
+}
+
+.upload_Img:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+    background-image: url(../assets/user/icon_edit_yellow.png);
+}
+/* FIN PORTADA */
+
+/* PERFIL */
+.col input, select, input[type=date_time], textarea, .colTarifa input[type=text]{
+    -moz-box-shadow:    1px 4px 2px 0px rgba(48, 50, 50, 0.53);
+    -webkit-box-shadow: 1px 4px 2px 0px rgba(48, 50, 50, 0.53);
+    border-radius: 10px;
+    border: 0px solid black;
+    box-shadow:         1px 4px 2px 0px rgba(48, 50, 50, 0.53);
+    height: 30px;
+    outline: none;
+    padding: 1px 10px 1px 10px;
+    margin-bottom: 6px;
+}
+
+.col input, select, input[type=date_time], textarea{
+     width: 225px;
+}
+
+.col input[type=radio]{
+    width: 18px !important;
+    -webkit-box-shadow: none;
+    -moz-box-shadow:    none;
+    box-shadow: none;
+
+}
+
+.col{
+    position: relative;
+    width: 475px;
+    min-height: 100px;
+    overflow: hidden;
+    margin: 20px auto;
+    font-family: IPParking;
+    text-align: center;
+    float: left;
+}
+
+.col1{
+    margin-left: 10px;
+    border-right: 2px dotted black;
+}
+
+.col3{
+    margin: 10px 250px !important;
+}
+
+.icon_Col{
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: rgba(252, 178, 21, 0.9);
+    border-radius: 100%; 
+    padding: 5px;
+}
+
+.icon_Col img{
+    width: 50px;
+    height: 50px;
+    background-size: 100% 100%;
+    border-radius: 100%;
+}
+
+.titulo_Col{
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+}
+
+.col input[type=text], input[type=password], input[type=date], input[type=email], input[type=number]{
+    width: 220px;
+}
+
+.col input[type=radio]{
+    margin: 0 5px 10px 5px;
+}
+
+.col input[type=date_time]{
+    width: 220px;
+    height: 30px;
+}
+
+.col textarea{
+    margin: 0;
+    width: 220px;
+    height: 100px;
+    padding-top: 10px;
+    resize: none;
+}
+
+.col select{
+    width: 220px;
+}
+
+.col table{
+    position: relative;
+    min-width: 100px;
+    margin: 10px auto 0 auto;
+}
+
+.col table td:last-child{
+    padding-left: 10px; 
+}
+
+#botones_crud_parqueadero{
+    margin-top: 90px; 
+}
+
+#botones_crud{
+    margin-top: 155px;
+}
+
+#botones_crud, #botones_edit, #botones_guardar, #botones_crud_tarifas{
+    text-align: center;
+}
+
+#contenedor_principal button{
+    width: 100px;
+    height: 30px;
+}
+
+#contenedor_principal .botton_oculto{
+    display: none;
+}
+
+#icon_editar_Password{
+    -webkit-transition: background-color 1s;
+    -webkit-transition: color 1.5s;
+    background-color: rgba(252, 178, 21, 0.9);
+    border-radius: 100%;
+    color: black;
+    font-size: 13px;
+    margin-left: -25px;
+    padding: 6px 4px 3px 5px;
+    text-decoration: none;
+}
+
+#icon_editar_Password:hover{
+    background-color: black;
+    color: #fea613;
+}
+
+.icon_verPassword{
+    color:gray;
+    margin-left: -22px;
+    margin-top: 6px;
+    position: absolute;
+}
+.icon_verPassword:hover, .ver_password_activo{
+    color: black;
+}
+
+#usuario_ajax, #correo_ajax, #captcha_ajax, #password_ajax, #restore_ajax{
+    font-size: 12px;
+    transition: all .5s ease-out;
+}
+
+#captcha_ajax, #restore_ajax{
+    margin-bottom: 5px;
+}
+
+#restore_password h2{
+    margin: 15px;
+}
+
+.correct{
+    color: green;
+}
+
+.error{
+    color: red;
+}
+
+.loading{
+    background-image: url(../assets/template/loading.gif);
+    background-size: 100% 100%;
+    width: 20px;
+    height: 20px;
+}
+
+.oculto{
+    display: none;
+}
+
+.col .custom.ui-widget .ui-corner-all{
+    padding: 10px 0 !important;
+    width: 250px !important;
+    margin: 0 auto 20px auto;
+}
+
+.colTarifa{
+    width: 230px;
+    min-height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    border-right: 2px dotted black;
+    margin-top: 10px;
+}
+
+.colTarifa:last-child{
+    border-right: none;
+}
+
+.colTarifa table{
+    margin: 10px auto;
+    font-family: IPParking;
+}
+
+.colTarifa input{
+    width: 100px;
+}
+
+.automoviles{
+    background-image: url(../assets/template/logo_automobiles.png);
+    border: 4px solid #fea614 !important; 
+}
+.motocicletas{
+    background-image: url(../assets/template/logo_motocicleta.jpg);
+    border: 4px solid #fea614 !important; 
+}
+.bicicletas{
+    background-image: url(../assets/template/logo_bicicleta.jpg);
+    border: 4px solid #fea614 !important; 
+}
+
+.icon_tarifas{
+    background-image: url(../assets/template/icon_tarifas.png);
+    background-color: rgba(0,0,0,0.5);
+    border: 4px solid #fea613;
+}
+/*FIN PERFIL*/
